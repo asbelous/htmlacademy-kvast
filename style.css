@@ -61,6 +61,10 @@ body {
     text-align: center;
 }
 
+.advantages {
+    background-color: #ffcb78;
+}
+
 .advantages ul {
     list-style: none;
 }
@@ -79,4 +83,25 @@ body {
     font-size: 20px;
     line-height: 20px;
     text-transform: uppercase;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 61px;
+    text-transform: uppercase;
+}
+
+.history-title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.history-source {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: initial;
 }
