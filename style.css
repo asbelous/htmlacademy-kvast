@@ -7,3 +7,19 @@ body {
     color: #404040;
     background-color: #fff;
 }
+
+.page-header {
+    color: #fff;
+    background-color: #363636;
+}
+
+.main-nav {
+    list-style: none;
+}
+.main-nav li {
+    text-transform: uppercase;
+}
+
+.main-nav li a {
+    color: #fff;
+}
