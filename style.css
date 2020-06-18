@@ -53,3 +53,10 @@ body {
 .btn:active {
     color: rgba(106, 57, 0, 0.3);
 }
+
+.promo {
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 70px;
+    text-align: center;
+}
