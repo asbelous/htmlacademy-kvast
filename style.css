@@ -60,3 +60,23 @@ body {
     line-height: 70px;
     text-align: center;
 }
+
+.advantages ul {
+    list-style: none;
+}
+
+.advantages-item {
+    text-align: left;
+    border-left: 1px solid #e5e5e5;
+}
+
+.advantages-item:first-child {
+    border-left: none;
+}
+
+.advantages-title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
