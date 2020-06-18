@@ -159,3 +159,52 @@ body {
 .assortment-list .assortment-cost {
     text-align: right;
 }
+
+.order {
+    background-color: #ffcb78;
+}
+
+.order-form {
+    font: inherit;
+    color: inherit;
+    
+}
+
+.order-form-group label {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.order-form input[type="text"],
+.order-form select,
+.order-form textarea {
+    background-color: #e5b76c;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.order-form input[type="text"]:hover,
+.order-form select:hover,
+.order-form textarea:hover {
+    background-color: #d9ad66;
+}
+
+.order-form input[type="text"]:focus,
+.order-form select:focus,
+.order-form textarea:focus {
+    background-color: #fff;
+}
+
+.checkbox-area {
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.checkbox-area label {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+}
