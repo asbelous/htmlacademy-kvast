@@ -105,3 +105,19 @@ body {
     line-height: 30px;
     text-transform: initial;
 }
+
+.history dd img {
+    border-radius: 5px;
+}
+
+.history-source a {
+    color: #834700;
+}
+
+.history-source a:hover {
+    color: #6a3900;
+}
+
+.history-source a:active {
+    color: #cab7a2;
+}
