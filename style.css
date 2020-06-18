@@ -208,3 +208,12 @@ body {
     font-size: 16px;
     line-height: 20px;
 }
+
+.page-footer {
+    background-color: #000;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+    color: #989898;
+}
