@@ -76,10 +76,23 @@ body {
 .advantages-item {
     text-align: left;
     border-left: 1px solid #e5e5e5;
+    padding-top: 90px;
 }
 
 .advantages-item:first-child {
     border-left: none;
+}
+
+.advantages-cook {
+    background: url("img/icon-brew.png") top left no-repeat;
+}
+
+.advantages-native {
+    background: url("img/icon-matreshka.png") top left no-repeat;
+}
+
+.advantages-economy {
+    background: url("img/icon-thumbsup.png") top left no-repeat;
 }
 
 .advantages-title {
