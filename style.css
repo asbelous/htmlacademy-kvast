@@ -11,6 +11,10 @@ body {
 .page-header {
     color: #fff;
     background-color: #363636;
+    background-image: url("img/wheat-back.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    block-size: cover;
 }
 
 .main-nav {
