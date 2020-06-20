@@ -272,6 +272,10 @@ body {
     padding-bottom: 90px;
 }
 
+.assortment .container {
+    width: 800px;
+}
+
 .assortment-list {
     width: 100%;
     border-collapse: collapse;
@@ -300,6 +304,12 @@ body {
 
 .order {
     background-color: #ffcb78;
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+
+.order .container {
+    width: 800px;
 }
 
 .order-form {
