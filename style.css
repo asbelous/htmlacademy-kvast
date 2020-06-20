@@ -150,10 +150,21 @@ body {
 .history {
     padding-top: 90px;
     padding-bottom: 80px;
+    margin-left: 200px;
 }
 
 .history dl {
     width: 800px;
+}
+
+.history dt {
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.history-container:first-child {
+    margin-top: 80px;
+    margin-bottom: 70px;
 }
 
 .history-title {
@@ -162,16 +173,27 @@ body {
     line-height: 30px;
     text-transform: uppercase;
 }
+
 .history-source {
     font-weight: normal;
     font-style: italic;
     font-size: 16px;
     line-height: 30px;
     text-transform: initial;
+    float: right;
+}
+
+.history dd {
+    margin: 0;
 }
 
 .history dd img {
     border-radius: 5px;
+    float: right;
+}
+
+.history dd p {
+    width: 488px;
 }
 
 .history-source a {
