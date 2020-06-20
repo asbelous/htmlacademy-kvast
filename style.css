@@ -210,6 +210,8 @@ body {
 
 .reviews {
     background-color: #ede5d8;
+    padding-top: 80px;
+    padding-bottom: 90px;
 }
 
 .reviews-author {
