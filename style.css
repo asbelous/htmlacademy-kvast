@@ -97,6 +97,36 @@ body {
     text-align: center;
 }
 
+.novelties {
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+
+.novelties .container {
+    width: 800px;
+}
+
+.novelties h2 {
+    margin-bottom: 100px;
+}
+
+.novelties-item {
+    float: left;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    width: 338px;
+    padding-right: 25px;
+    padding-left: 34px;
+}
+
+.novelties-item:first-child {
+    border-right: none;
+}
+
+.novelties-item h3 {
+    margin-top: 0;
+}
+
 .advantages {
     background-color: #ffcb78;
     padding-top: 80px;
