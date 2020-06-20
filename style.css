@@ -78,6 +78,8 @@ body {
     color: #834700;
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: bold;
+    line-height: 20px;
 }
 
 .btn:hover {
@@ -150,10 +152,9 @@ body {
 .history {
     padding-top: 90px;
     padding-bottom: 80px;
-    margin-left: 200px;
 }
 
-.history dl {
+.history .container {
     width: 800px;
 }
 
@@ -214,12 +215,27 @@ body {
     padding-bottom: 90px;
 }
 
+.reviews .container {
+    width: 800px;
+}
+
 .reviews-author {
     font-weight: bold;
     font-size: 20px;
     line-height: 30px;
     text-transform: uppercase;
     font-style: normal;
+    float: right;
+    margin-top: 55px;
+}
+
+.reviews-item {
+    margin: 0;
+    margin-top: 75px;
+}
+
+.reviews-item p {
+    width: 695px;
 }
 
 .assortment-list {
