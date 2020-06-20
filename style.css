@@ -359,9 +359,37 @@ body {
 
 .page-footer {
     background-color: #000;
+    padding-top: 60px;
+    padding-bottom: 43px;
+}
+
+.page-footer .container {
+    width: 1010px;
+}
+
+.footer-top {
+    margin-bottom: 43px;
+}
+
+.footer-logo {
+    float: left;
+}
+
+.footer-top .main-nav {
+    margin-left: 130px;
 }
 
 .footer-bottom a {
     text-decoration: none;
     color: #989898;
+    float: right;
+}
+
+.footer-bottom p {
+    margin-left: 93px;
+    float: left;
+}
+
+.footer-social {
+    float: left;
 }
