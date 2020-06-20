@@ -113,14 +113,13 @@ body {
 .novelties-item {
     float: left;
     border-left: 1px solid #e5e5e5;
-    border-right: 1px solid #e5e5e5;
     width: 338px;
     padding-right: 25px;
     padding-left: 34px;
 }
 
-.novelties-item:first-child {
-    border-right: none;
+.novelties-item:last-child {
+    border-right: 1px solid #e5e5e5;
 }
 
 .novelties-item h3 {
@@ -266,6 +265,11 @@ body {
 
 .reviews-item p {
     width: 695px;
+}
+
+.assortment {
+    padding-top: 100px;
+    padding-bottom: 90px;
 }
 
 .assortment-list {
