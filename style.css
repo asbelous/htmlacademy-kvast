@@ -147,6 +147,15 @@ body {
     text-transform: uppercase;
 }
 
+.history {
+    padding-top: 90px;
+    padding-bottom: 80px;
+}
+
+.history dl {
+    width: 800px;
+}
+
 .history-title {
     font-weight: bold;
     font-size: 20px;
