@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    width: 1020px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -39,6 +39,7 @@ body {
     float: left;
     width: 140px;
     height: 76px;
+    margin-left: 200px;
 }
 
 .main-nav {
@@ -102,17 +103,22 @@ body {
 
 .advantages ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .advantages-item {
+    width: 198px;
     text-align: left;
     border-left: 1px solid #e5e5e5;
     padding-top: 90px;
     float: left;
+    padding-left: 95px;
+    padding-right: 95px;
 }
 
 .advantages-item:first-child {
-    border-left: none;
+    border-left-color: transparent;
 }
 
 .advantages-cook {
