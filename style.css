@@ -94,6 +94,11 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     line-height: 20px;
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid #834700;
+    padding: 18px 22px;
+    font-size: 16px;
 }
 
 .btn:hover {
@@ -103,6 +108,40 @@ body {
 .btn:active {
     color: rgba(106, 57, 0, 0.3);
 }
+
+.btn-brown {
+    color: #ffffff;
+    background-color: #834700;
+}
+
+.btn-brown:hover {
+    color: #ffffff;
+    background-color: #6a3900;
+    border: 2px solid #6a3900;
+}
+
+.btn-brown:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #6a3900;
+    border: 2px solid #6a3900;
+}
+
+.btn-ghost {
+    color: #a5a097;
+    border: 2px solid #a5a097;
+}
+
+.btn-ghost:hover {
+    color: #ffffff;
+    background-color: #a5a097;
+}
+
+.btn-ghost:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #8f8a81;
+    border: 2px solid #8f8a81;
+}
+
 
 .promo {
     font-weight: bold;
