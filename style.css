@@ -192,17 +192,21 @@ body {
 }
 
 .advantages-item {
-    width: 198px;
+    width: 210px;
     text-align: left;
-    border-left: 1px solid #e5e5e5;
-    padding-top: 90px;
-    float: left;
-    padding-left: 95px;
+    border-right: 1px solid #e5b66c;
+    padding-top: 104px;
+    float: left;  
     padding-right: 95px;
+    margin-left: 94px;
 }
 
-.advantages-item:first-child {
-    border-left-color: transparent;
+.advantages-item:last-child {
+    border-right-color: transparent;
+}
+
+.advantages-item p {
+    margin: 0;
 }
 
 .advantages-cook {
@@ -222,6 +226,8 @@ body {
     font-size: 20px;
     line-height: 20px;
     text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 30px;
 }
 
 .section-title {
