@@ -129,6 +129,7 @@ body {
 .btn-ghost {
     color: #a5a097;
     border: 2px solid #a5a097;
+    margin-top: 44px;
 }
 
 .btn-ghost:hover {
