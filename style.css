@@ -1,5 +1,5 @@
 body {
-    width: 1200px;
+    /* width: 1400px; */
     min-width: 1040px;
     margin: 0 auto;
     padding: 0;
@@ -8,10 +8,11 @@ body {
     font-family: "Arial", sans-serif;
     color: #404040;
     background-color: #fff;
+    box-sizing: content-box;
 }
 
 .container {
-    width: 1200px;
+    width: 800px;
     margin: 0 auto;
 }
 
@@ -28,19 +29,18 @@ body {
     background-color: #363636;
     background-image: url("img/wheat-back.jpg");
     background-repeat: no-repeat;
-    background-position: center;
-    block-size: cover;
+    background-position: center 132%;
+    background-size: cover;
 }
 
 .header-top {
-    margin-bottom: 125px;
+    margin-bottom: 120px;
 }
 
 .header-logo {
     float: left;
     width: 140px;
     height: 76px;
-    margin-left: 200px;
 }
 
 .header-logo img {
@@ -50,31 +50,39 @@ body {
 
 .main-nav {
     list-style: none;
-    float: left;
-    width: 597px;
+    float: right;
+    width: 600px;
     margin: 0;
     padding: 0;
-    margin-left: 60px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    padding: 17px 0;
+    padding: 14px 0 13px 0;
     margin-top: 10px;
 }
 
 .main-nav li {
     text-transform: uppercase;
     float: left;
-    padding-right: 56px; 
+    font-weight: bold; 
+    font-size: 16px;
 }
 
-.main-nav li:last-child {
-    padding-right: 0;
+.main-nav li:first-child {
+    padding-right: 54px;
+}
+
+.main-nav li:nth-child(2) {
+    padding-right: 55px;
+}
+
+.main-nav li:nth-child(3) {
+    padding-right: 54px;
 }
 
 .main-nav a {
     color: #fff;
     text-decoration: none;
-    padding: 22px 0;
+    padding: 17px 0;
 }
 .main-nav a:hover {
     color: #ffcb78;
@@ -86,6 +94,13 @@ body {
     color: rgba(255, 203, 120, 0.3);
     text-decoration: none;
     border-bottom: 1px solid #fff;
+}
+
+.promo {
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 70px;
+    text-align: center;
 }
 
 .btn {
@@ -141,13 +156,6 @@ body {
     color: rgba(255, 255, 255, 0.3);
     background-color: #8f8a81;
     border: 2px solid #8f8a81;
-}
-
-.promo {
-    font-weight: bold;
-    font-size: 70px;
-    line-height: 70px;
-    text-align: center;
 }
 
 .novelties {
