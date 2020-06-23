@@ -1,2 +1,2 @@
 # kvast
-by HTMLAcademy
+training layout by HTMLAcademy
