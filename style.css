@@ -196,6 +196,7 @@ body {
 .novelties-consist table td {
     border: 1px solid #e5e5e5;
     padding: 10px 20px 10px 10px;
+    font-weight: bold;
 }
 
 .novelties-consist p {
