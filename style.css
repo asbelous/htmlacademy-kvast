@@ -443,6 +443,14 @@ body {
     padding-bottom: 110px;
 }
 
+.assorment-alc {
+    width: 90px;
+}
+
+.assortment-kkal {
+    width: 60px;
+}
+
 .order .container {
     width: 800px;
 }
