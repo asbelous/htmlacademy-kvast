@@ -143,7 +143,6 @@ body {
     border: 2px solid #8f8a81;
 }
 
-
 .promo {
     font-weight: bold;
     font-size: 70px;
@@ -170,6 +169,7 @@ body {
     width: 338px;
     padding-right: 25px;
     padding-left: 34px;
+    position: relative;
 }
 
 .novelties-item:last-child {
@@ -178,6 +178,42 @@ body {
 
 .novelties-item h3 {
     margin-top: 0;
+}
+
+.novelties-consist {
+    position: absolute;
+    right: 0;
+}
+
+.novelties-item:last-child .novelties-consist {
+    margin-right: 14px;
+}
+
+.novelties-consist table {
+    border-collapse: collapse;
+}
+
+.novelties-consist table td {
+    border: 1px solid #e5e5e5;
+    padding: 10px 20px 10px 10px;
+}
+
+.novelties-consist p {
+    font-size: 14px;
+    width: 150px;
+    line-height: 24px;
+}
+
+.novelties-text {
+    margin-top: 15px;
+    margin-bottom: 65px;
+}
+
+.novelties-item b {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 25px;
+    
 }
 
 .advantages {
