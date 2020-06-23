@@ -334,9 +334,19 @@ body {
     margin-top: 55px;
 }
 
+.reviews-list {
+    position: relative;
+}
+
+.reviews-list img {
+    position: absolute;
+    top: 7px;
+    left: -105px;
+}
+
 .reviews-item {
     margin: 0;
-    margin-top: 75px;
+    margin-top: 75px; 
 }
 
 .reviews-item p {
