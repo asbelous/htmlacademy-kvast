@@ -168,7 +168,7 @@ body {
     border-left: 1px solid #e5e5e5;
     width: 338px;
     padding-right: 25px;
-    padding-left: 34px;
+    padding-left: 32px;
     position: relative;
 }
 
@@ -212,7 +212,7 @@ body {
 .novelties-item b {
     display: inline-block;
     margin-top: 15px;
-    margin-left: 25px;
+    margin-left: 22px;
     
 }
 
@@ -235,7 +235,7 @@ body {
     padding-top: 104px;
     float: left;  
     padding-right: 95px;
-    margin-left: 94px;
+    margin-left: 91px;
 }
 
 .advantages-item:last-child {
@@ -409,19 +409,32 @@ body {
     text-transform: uppercase;
     font-size: 11px;
     text-align: left;
+    padding: 25px 0;
 }
 
 .assortment-list td {
     text-transform: uppercase;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 25px 0;
 }
 
 .assortment-list .assortment-name {
     font-weight: bold;
+    width: 400px;
 }
 
 .assortment-list .assortment-cost {
     text-align: right;
+}
+
+.assortment-name sup {
+    color: #ffffff;
+    font-size: 8px;
+    line-height: 30px;
+    background-color: #000000;
+    margin-left: 25px;
+    padding: 3px 4px 4px 5px;
+    border-radius: 1px;
 }
 
 .order {
