@@ -12,3 +12,7 @@ body {
     color: #fff;
     background-color: #363636;
 }
+
+.main-nav {
+    list-style: none;
+}
