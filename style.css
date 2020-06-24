@@ -56,3 +56,8 @@ body {
     line-height: 70px;
     text-align: center;  
 }
+
+.promo a {
+    color: #fff;
+    text-decoration: none;
+}
