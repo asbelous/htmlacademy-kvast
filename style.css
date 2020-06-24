@@ -66,3 +66,7 @@ body {
     list-style: none;
 }
 
+.feature-item {
+    text-align: center;
+    border-left: 1px solid #e5e5e5;
+}
