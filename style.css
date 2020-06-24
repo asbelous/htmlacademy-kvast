@@ -36,3 +36,8 @@ body {
     border-bottom: 1px solid #fff;
 }
 
+.btn {
+    color: #834700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
