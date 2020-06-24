@@ -49,3 +49,9 @@ body {
 .btn:active {
     color: rgba(106, 57, 0, 0.3);
 }
+
+.promo {
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 70px;  
+}
