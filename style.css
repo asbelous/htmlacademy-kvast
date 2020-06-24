@@ -92,3 +92,10 @@ body {
     font-weight: bold;
     text-transform: uppercase;
 }
+
+.reference-title {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
