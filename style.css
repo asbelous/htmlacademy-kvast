@@ -110,4 +110,17 @@ body {
     font-weight: normal;
     font-style: italic;
     text-transform: none;
+    color: #444444;
+}
+
+.reference-source a {
+    color: #834700;
+}
+
+.reference-source a:hover {
+    color: #6a3900;
+}
+
+.reference-source a:active {
+   color: #cab7a2; 
 }
