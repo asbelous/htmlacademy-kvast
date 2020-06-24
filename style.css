@@ -41,3 +41,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
 }
+
+.btn:hover {
+    color: #6a3900;
+}
