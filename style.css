@@ -20,3 +20,8 @@ body {
 .main-nav li {
     text-transform: uppercase;
 }
+
+.main-nav a {
+    color: #fff;
+    text-decoration: none;
+}
