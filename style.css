@@ -53,5 +53,6 @@ body {
 .promo {
     font-size: 70px;
     font-weight: bold;
-    line-height: 70px;  
+    line-height: 70px;
+    text-align: center;  
 }
