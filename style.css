@@ -99,3 +99,11 @@ body {
     font-weight: bold;
     text-transform: uppercase;
 }
+
+.reference-source {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: normal;
+    font-style: italic;
+    text-transform: none;
+}
