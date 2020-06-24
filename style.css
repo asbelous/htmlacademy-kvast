@@ -45,3 +45,7 @@ body {
 .btn:hover {
     color: #6a3900;
 }
+
+.btn:active {
+    color: rgba(106, 57, 0, 0.3);
+}
