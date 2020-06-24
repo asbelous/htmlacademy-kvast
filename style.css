@@ -72,5 +72,12 @@ body {
 }
 
 .feature-item:first-child {
-    border: none;
+    border-left: none;
+}
+
+.feature-title {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
