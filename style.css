@@ -16,3 +16,7 @@ body {
 .main-nav {
     list-style: none;
 }
+
+.main-nav li {
+    text-transform: uppercase;
+}
