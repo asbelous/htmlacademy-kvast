@@ -31,3 +31,8 @@ body {
     border-bottom: 1px solid #fff;
 }
 
+.main-nav a:active {
+    color: rgb(255, 203, 120, 0.3);
+    border-bottom: 1px solid #fff;
+}
+
