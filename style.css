@@ -93,6 +93,10 @@ body {
     text-transform: uppercase;
 }
 
+.reference dd img {
+    border-radius: 5px;
+}
+
 .reference-title {
     font-size: 20px;
     line-height: 20px;
