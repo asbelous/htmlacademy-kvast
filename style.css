@@ -62,13 +62,17 @@ body {
     text-decoration: none;
 }
 
+.features {
+    background-color: #ffcb78;
+}
+
 .features ul {
     list-style: none;
 }
 
 .feature-item {
     text-align: left;
-    border-left: 1px solid #e5e5e5;
+    border-left: 1px solid #e5b66c;
 }
 
 .feature-item:first-child {
