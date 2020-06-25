@@ -170,3 +170,26 @@ body {
     text-transform: uppercase;
     background-color: #ffcb78;
 }
+
+.feedback-form input[type="text"],
+.feedback-form select,
+.feedback-form textarea {
+    font: inherit;
+    color: inherit;
+    border: 1px solid #e5b76c;
+    background-color: #e5b76c;
+}
+
+.feedback-form input[type="text"]:hover,
+.feedback-form select:hover,
+.feedback-form textarea:hover {
+    background-color: #d9ad66;
+    border-color: #d9ad66;
+}
+
+.feedback-form input[type="text"]:focus,
+.feedback-form select:focus,
+.feedback-form textarea:focus {
+    background-color: #fff;
+    border-color: #fff;
+}
