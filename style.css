@@ -162,3 +162,10 @@ body {
 .price-list .price-cost {
     text-align: right;
 }
+
+.feedback-form-group {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
