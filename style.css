@@ -163,12 +163,16 @@ body {
     text-align: right;
 }
 
+.feedback {
+    background-color: #ffcb78;
+}
+
 .feedback-form-group {
     font-size: 16px;
     line-height: 20px;
     font-weight: bold;
     text-transform: uppercase;
-    background-color: #ffcb78;
+    padding: 10px 0;
 }
 
 .feedback-form input[type="text"],
@@ -193,3 +197,18 @@ body {
     background-color: #fff;
     border-color: #fff;
 }
+
+.page-footer {
+    background-color: #000000;
+}
+
+.footer-bottom {
+    font-size: 14px;
+    line-height: 20px;
+    color: #989898;
+}
+
+.footer-bottom a {
+    color: #989898;
+}
+
