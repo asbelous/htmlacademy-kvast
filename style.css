@@ -136,3 +136,29 @@ body {
     text-transform: uppercase;
     font-style: normal;
 }
+
+.price-list {
+    width: 100%;
+    border-collapse: collapse;
+    line-height: 30px;
+}
+
+.price-list th {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #999999;
+    text-align: left;
+}
+
+.price-list td {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.price-list .price-name {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.price-list .price-cost {
+    text-align: right;
+}
