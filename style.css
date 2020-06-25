@@ -77,6 +77,7 @@ body {
 .feature-item {
     text-align: left;
     border-left: 1px solid #e5b66c;
+    padding-top: 80px;
 }
 
 .feature-item:first-child {
@@ -88,6 +89,18 @@ body {
     line-height: 20px;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.feature-cook {
+    background: url("img/icon-brew.png") top left no-repeat;
+}
+
+.feature-native {
+    background: url("img/icon-matreshka.png") top left no-repeat;
+}
+
+.feature-economy {
+    background: url("img/icon-thumbsup.png") top left no-repeat;
 }
 
 .section-title {
@@ -131,6 +144,15 @@ body {
 
 .reviews {
     background-color: #ede5d8;
+}
+
+.review-list {
+    
+}
+
+.review-item {
+    background: url("img/quotes.png") top left no-repeat;
+    padding-left: 64px;
 }
 
 .review-author {
