@@ -1,2 +1,2 @@
 # Кваст
-training layout by HTMLAcademy
+учебный проект by HTMLAcademy
