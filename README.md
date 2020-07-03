@@ -1,2 +1,2 @@
-# kvast
+# Кваст
 training layout by HTMLAcademy
