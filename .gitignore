@@ -6,6 +6,7 @@
 #My ignored file
 *.zip
 *.old
+*.psd
 
 # User-specific files
 *.rsuser
