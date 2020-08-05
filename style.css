@@ -52,11 +52,12 @@ body {
 .main-nav {
     list-style: none;
     float: right;
-    margin: 9px 0 7px 0;
-    line-height: 58px;
+    margin: 10px 0 7px 0;
+    line-height: 57px;
     padding: 0;
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    width: 600px;
 }
 
 .main-nav li {
