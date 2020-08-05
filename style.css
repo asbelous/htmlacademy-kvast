@@ -8,6 +8,26 @@ body {
     background-color: #fff;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+
+.container {
+    margin: 0 auto;
+    height: 100%;
+}
+
+.w1015 {
+    width: 1015px;
+}
+
+.w800 {
+    width: 800px;
+}
+
 .page-header {
     color: #fff;
     background-color: #363636;
@@ -15,14 +35,33 @@ body {
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
+    height: 525px;
+    padding-top: 60px;
+}
+
+.header-top {
+    
+}
+
+.header-logo {
+    float: left;
+    width: 140px;
+    height: 76px;
 }
 
 .main-nav {
     list-style: none;
+    float: right;
+    margin: 9px 0 7px 0;
+    line-height: 58px;
+    padding: 0;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
 }
 
 .main-nav li {
     text-transform: uppercase;
+    float: left;
 }
 
 .main-nav a {
