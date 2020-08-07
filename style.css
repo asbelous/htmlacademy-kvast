@@ -33,7 +33,7 @@ body {
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
-    height: 525px;
+    height: 490px;
     padding-top: 60px;
 
 }
@@ -52,8 +52,8 @@ body {
     list-style: none;
     float: right;
     margin: 10px 0 7px 0;
-    line-height: 57px;
     padding: 0;
+    line-height: 57px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     width: 600px;  
@@ -62,11 +62,23 @@ body {
 .main-nav li {
     text-transform: uppercase;
     float: left;
+    margin-right: 54.5px;
+}
+
+.main-nav li:first-child {
+    margin-right: 54.4px;
+}
+
+.main-nav li:last-child {
+    margin-right: 0;
 }
 
 .main-nav a {
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
 }
 
 .main-nav a:hover {
